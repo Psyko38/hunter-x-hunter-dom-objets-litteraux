@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Kavivanar:regular);
+
+.card {
+	background-color: #d9d9d9;
+	border: black 3vh solid;
+	border-radius: 3vh;
+	width: 30vh;
+	font-family: Kavivanar;
+}
+
+.card > div:nth-child(1) {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: #000000 3vh solid;
+	height: 6vh;
+	font-size: 1.5vh;
+}
+
+.card > div:nth-child(1) > p:nth-child(1),
+.card > div:nth-child(1) > p:nth-child(3) {
+	border: 1.2vh dashed black;
+	padding: 1.0vh;
+	font-weight: bolder;
+	font-size: 1.5vh;
+	line-height: 100%;
+	letter-spacing: 7%;
+	text-align: center;
+}
+
+.card > div:nth-child(1) > p:nth-child(2) {
+	font-size: 100%;
+	line-height: 100%;
+	letter-spacing: 7%;
+	text-align: center;
+	font-size: 1.8vh;
+}
+
+.card > img {
+	width: 100%;
+}
+
+.card > div:nth-child(3) > div {
+	background: radial-gradient(
+		50% 138.22% at 50% 50%,
+		#000000 0%,
+		#0084a8 20%,
+		#0015ff 40%,
+		#000000 60%,
+		#0084a8 80%,
+		#0015ff 100%
+	);
+	padding: 0.5vh 1vh;
+	height: 20vh;
+}
+
+.card > div:nth-child(3) > div > p {
+	font-size: 1.5vh;
+	border: 1vh solid #000000;
+	background: #d9d9d9;
+	border-radius: 3vh;
+	height: 80%;
+}
