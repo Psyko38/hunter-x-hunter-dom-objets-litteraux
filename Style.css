@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Kavivanar:regular);
 
 header {
-	border-bottom: #343434 15px solid;
 	font-family: Kavivanar;
 	font-weight: 400;
 	font-size: 25px;
@@ -21,4 +20,37 @@ header {
 	transition: 0.25s;
 	outline: 1000000000000000000px solid transparent;
 	transform: scale(150%);
+}
+
+header > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header > div > .BTN > button:nth-child(1) {
+	background: #cc527e;
+}
+
+header > div > .BTN > button {
+	background: #2a2e2f;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 7%;
+	text-align: center;
+	border-radius: 666px;
+	padding: 1vmin 3vmin;
+	color: #ffffff;
+	border: 0;
+}
+
+header > div > .BTN > button:nth-child(0) {
+	background: #cc527e;
+}
+
+input {
+	border: 1px solid #000000;
+	width: 98%;
+	padding: 1.5vmin;
+	border-radius: 1vmin;
 }
